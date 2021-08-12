@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/black"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/mainImage"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_width="match_parent"
+        android:scaleType="centerCrop"
+        android:layout_height="150dp"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:text="Titulo"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/white"/>
+    <TextView
+        android:id="@+id/subs"
+        android:text="282 Seguidores"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/white2"/>
+
+</LinearLayout>
